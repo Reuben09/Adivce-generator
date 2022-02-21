@@ -1,0 +1,60 @@
+/* colors
+#131730 blue
+#4AA2F7 light blue
+#fff */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=PT+Sans&family=Shizuru&display=swap");
+html {
+  height: 100%;
+}
+body {
+  background-color: #131730;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: yellow;
+  height: 100%;
+}
+.loading-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fafafa;
+  height: 100%;
+}
+.loading-container h2 {
+  color: #fafafa;
+}
+.quote-container {
+  background-color: #4aa2f7;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 2rem;
+  color: #131730;
+  border-radius: 0.5rem;
+  font-family: "PT Sans", sans-serif;
+  font-size: 500;
+}
+span {
+  color: white;
+  font-size: 2rem;
+}
+.quote {
+  color: #131730;
+  font-size: 3rem;
+}
+.button-container button {
+  padding: 1rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: #131730;
+  font-weight: 550;
+  font-size: 1.1rem;
+  font-family: "PT Sans", sans-serif;
+}
